@@ -141,7 +141,7 @@ def create_food_pdf():
         pdf.ln(5)
     
     # 輸出 PDF
-    output_path = '/home/chengpin/.openclaw/workspace/hualien-food-pdf/花蓮美食推薦.pdf'
+    output_path = '花蓮美食推薦.pdf'
     pdf.output(output_path)
     print(f'✅ PDF 已生成：{output_path}')
     return output_path
